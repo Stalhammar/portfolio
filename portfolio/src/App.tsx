@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import SocialLink from "./components/SocialLink";
 
 function App() {
   return (
@@ -7,20 +8,12 @@ function App() {
         Ludvig Stålhammar
       </h1>
       <div className="flex gap-8">
-        <a
-          href="https://github.com/Stalhammar"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub className="w-12 h-12 cursor-pointer transition transform hover:scale-105" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ludvig-stalhammar"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin className="w-12 h-12 cursor-pointer transition transform hover:scale-105" />
-        </a>
+        <SocialLink href="https://github.com/Stalhammar">
+          <FaGithub className="w-12 h-12" />
+        </SocialLink>
+        <SocialLink href="https://www.linkedin.com/in/ludvig-stalhammar">
+          <FaLinkedin className="w-12 h-12" />
+        </SocialLink>
       </div>
     </div>
   );
