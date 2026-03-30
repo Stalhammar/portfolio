@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div>
-      <h1 className="font-serif text-4xl text-blue-300 font-bold">Hello</h1>
+    <div className="flex items-center justify-center p-18">
+      <h1 className="font-serif text-5xl font-bold text-center">Ludvig Stålhammar</h1> 
     </div>
   );
 }
