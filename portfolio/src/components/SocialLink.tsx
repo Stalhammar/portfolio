@@ -9,7 +9,7 @@ function SocialLink({ href, children }: SocialLinkProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="transition hover:scale-105"
+      className="transition hover:scale-102"
     >
       {children}
     </a>
