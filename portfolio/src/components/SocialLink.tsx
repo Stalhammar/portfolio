@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 type SocialLinkProps = {
   href: string;
   children: React.ReactNode;
@@ -5,14 +7,14 @@ type SocialLinkProps = {
 
 function SocialLink({ href, children }: SocialLinkProps) {
   return (
-    <a
+    <motion.a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="transition hover:scale-102"
+      whileHover={{ scale: 1.02 }}
     >
       {children}
-    </a>
+    </motion.a>
   );
 }
 
