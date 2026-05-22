@@ -1,7 +1,12 @@
+import BackButton from "../components/BackButton";
+
 function About() {
-    return (
-        <h1>Om mig</h1>
-    )
+  return (
+    <div>
+      <h1>Om mig</h1>
+      <BackButton />
+    </div>
+  );
 }
 
 export default About;
