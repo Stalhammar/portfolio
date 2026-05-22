@@ -11,7 +11,7 @@ function SocialLink({ href, children }: SocialLinkProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      whileHover={{ scale: 1.02 }}
+      whileHover={{ color: "var(--color-text-hover)"}}
     >
       {children}
     </motion.a>

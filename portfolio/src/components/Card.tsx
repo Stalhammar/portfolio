@@ -7,7 +7,7 @@ type CardProps = {
 function Card({ text }: CardProps) {
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
+      whileHover={{ scale: 1.02, backgroundColor: "var(--color-surface-hover)"}}
       className="bg-surface p-10 border-2 rounded-xl flex items-center justify-center cursor-pointer w-70 h-50"
     >
       <div className="">

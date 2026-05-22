@@ -5,7 +5,9 @@
     --font-serif: "Playfair Display", serif;
     --color-background: #FFFAF0;
     --color-surface: #FFFEFC;
-    --color-text: #1C1414;
+    --color-surface-hover: #FFDEB8;
+    --color-text: #332421;
+    --color-text-hover: #4A3935;
 }
 
 body {
